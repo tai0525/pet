@@ -11992,6 +11992,58 @@ fieldset:disabled .btn {
   }
 }
 
+.pill-btn-shadow:hover {
+  -webkit-box-shadow: 0 2px 0 0 #3a3a3a;
+          box-shadow: 0 2px 0 0 #3a3a3a;
+}
+
+.pill-btn-primary:hover {
+  background-color: #f9c745;
+  border-color: #f9c745;
+  color: #3a3a3a;
+}
+
+.change-image img:nth-child(2) {
+  display: none;
+}
+
+.change-image:hover img:nth-child(2) {
+  display: block;
+}
+
+.change-image:hover img:first-child {
+  display: none;
+}
+
+.header-height {
+  height: calc(100vh - 64px);
+  background-image: url(../../img/home_mobile.png);
+}
+
+@media screen and (min-width: 992px) {
+  .header-height {
+    height: calc(100vh - 88px);
+    background-image: url(../../img/home.png);
+  }
+}
+
+.design-card .card-img-overlay {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+
+.design-card > div {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+.design-card:hover > div {
+  opacity: 1;
+}
+
 .adoption-card {
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
@@ -12031,58 +12083,6 @@ fieldset:disabled .btn {
 
 .adoption-card-3:hover div:first-child {
   background-image: url(../../img/dog03-hover.png);
-}
-
-.change-image img:nth-child(2) {
-  display: none;
-}
-
-.change-image:hover img:nth-child(2) {
-  display: block;
-}
-
-.change-image:hover img:first-child {
-  display: none;
-}
-
-.design-card .card-img-overlay {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-}
-
-.design-card > div {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
-  -webkit-transition-duration: .3s;
-          transition-duration: .3s;
-}
-
-.design-card:hover > div {
-  opacity: 1;
-}
-
-.header-height {
-  height: calc(100vh - 64px);
-  background-image: url(../../img/home_mobile.png);
-}
-
-@media screen and (min-width: 992px) {
-  .header-height {
-    height: calc(100vh - 88px);
-    background-image: url(../../img/home.png);
-  }
-}
-
-.pill-btn-shadow:hover {
-  -webkit-box-shadow: 0 2px 0 0 #3a3a3a;
-          box-shadow: 0 2px 0 0 #3a3a3a;
-}
-
-.pill-btn-primary:hover {
-  background-color: #f9c745;
-  border-color: #f9c745;
-  color: #3a3a3a;
 }
 
 body {
