@@ -1,12 +1,12 @@
 .header-height{
     height: calc(100vh - 64px);
-    background-image: url(../../img/home_mobile.png);
+    background-image: url(../img/home_mobile.png);
 };
 
 @media screen and(min-width:992px){
     .header-height{
         height: calc(100vh - 88px);
-        background-image: url(../../img/home.png);
+        background-image: url(../img/home.png);
     }
     
 }
