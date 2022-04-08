@@ -1,0 +1,19 @@
+body{
+    font-family: "Noto Sans TC", sans-serif;
+    color: #3a3a3a;
+}
+.kalam{
+    font-family: "Kalam", cursive;
+}
+.bg-cover{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.object-fit-cover{
+    object-fit: cover;
+}
+.bg-texture{
+    background-image: url(../../img/lightpaperfibers.png);
+}
